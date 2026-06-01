@@ -1,0 +1,75 @@
+body{
+    background-color:whitesmoke;
+    margin-top: top 0px;
+}
+
+
+/*header styled format*/
+header{
+    margin: top 0;
+    position: sticky;
+
+}
+.ins-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:1rem;
+    border-color: white;
+    border-style: groove;
+    padding: 15px, 5px;
+}
+.logo{
+    display:flex;
+    gap: 1rem;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    margin-left: 35%;
+    display: flex;
+}
+
+/* application gradebook styled */
+
+.grade{
+    background-color: rgba(134, 190, 134, 0.473);
+    display:flex;
+    height: 200px;
+    width: 400px
+    padding-top: 10px;
+    float: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    magrin-left:20px;
+    display: flex;
+}
+table tr th{
+    color: white;
+    background-color: #282A35;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+
+}
+
+input{
+    width:96.5%;
+    height:27px;
+    border-radius: 0.5rem;
+    border-style: none;
+    padding-left: 5px;
+}
+
+button{
+    height: 25px;
+    border-style: none;
+    margin-left: 30rem;
+    border-radius: 0.5rem;
+    cursor: pointer;   
+}
+button::hover{
+    background-color: whitesmoke;
+    ease-in: 3s; ease-out: 3s;
+}

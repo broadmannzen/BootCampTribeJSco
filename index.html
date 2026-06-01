@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Gradebook</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="shortcut icon" href="icons8-graduation-cap-100.png" />
+    </head>
+<body>
+    <!--- HEADER MENU-PAR --->
+    <header class="header-content" >
+        <div class="ins-header">
+            <div class="logo">
+                <img style="height:38px"; src="icons8-graduation-cap-100.png" alt="logo"/>
+                <em>Application Results: BootCamp</em> 
+            </div>
+            <nav>
+                <ul>
+                    <li></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- GRADEBOOK HOME PAGE-VIEW -->
+    <main>
+        <h2>Gradebook</h2>
+        <p>This is an application results form for Bootcamp Class2026 students.</p>
+        <!--GRADEBOOK APPLICATION FORM-->
+        <div class="grade">
+            <div>
+                
+            </div>
+            <form action="/" method="get" id="booklet" >
+                <table>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Marks</th>
+                    </tr>
+                    <td><input type="text" name="name" placeholder="Enter First Name" id="firstName" ></td>
+                    <td><input type="text" name="lastname" placeholder="Enter Last Name" id="lastName" ></td>
+                    <td><input type="number" name="marks" placeholder="Enter Marks" id="marks" ></td>   
+                </table>
+            <button type="submit">Submit</button>s
+            </form>
+            <!-- RESULTS CONTENT GRADEBOOK OUTLET -->
+            <section class="results" id="results" >
+
+            </section>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
