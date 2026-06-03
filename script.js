@@ -25,10 +25,10 @@ form.addEventListener("submit", function(event) {
         return;
     }
 
-    if (isNaN(mark) || mark < 0 || mark > 100) {
-        resultsSection.firstChild.textContent = "Please enter a valid mark between 0 and 100.";
-        return;
-    }
+    //if (isNaN(mark) || mark < 0 || mark > 100) {
+     //   resultsSection.firstChild.textContent = "Please enter a valid mark between 0 and 100.";
+     //   return;
+    //} playing around with the comabds, note that the Marks rrstriction is within the table
 
         let grade;
     let outcome;
